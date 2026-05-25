@@ -61,35 +61,17 @@
 ---
 
 ## 🔐 Auth Module
-- [ ] Signup API
-- [ ] Login API
-- [ ] Password hashing (bcrypt)
-- [ ] JWT token generation
-- [ ] JWT verification middleware
+- [x] Signup API
+- [x] Login API
+- [x] Password hashing (bcrypt)
+- [x] JWT token generation
+- [x] JWT verification middleware
 
 ---
 
 ## 🛡️ Authorization
 - [ ] Auth middleware (protect routes)
 - [ ] Role-based access (contributor / maintainer)
-
----
-
-## 👥 Users Module
-- [x] Create users API
-- [x] Get all users API
-- [x] Get single users API
-- [x] Update users API
-- [x] Delete users API
-
----
-
-## 🐛 Issues Module
-- [x] Create issue API
-- [x] Get all issues API
-- [x] Get single issue API
-- [x] Update issue API
-- [x] Delete issue API
 
 ---
 
