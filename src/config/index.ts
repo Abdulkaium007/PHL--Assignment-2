@@ -7,6 +7,8 @@ dotenv.config({
 
 export const config = {
     port: process.env.PORT,
-    connectionString: process.env.connectionString
+    connectionString: process.env.connectionString,
+    secret: process.env.secret,
+    refreshSecret: process.env.refreshSecret
 
 };
