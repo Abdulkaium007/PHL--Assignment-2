@@ -28,7 +28,8 @@ const createIssue = async(req: Request, res: Response) => {
 
 const getAllIssues = async(req: Request, res: Response) => {
     try {
-        const result = await issuesService.getAllIssuesFromDB();
+        const sort = req.query.sort as string;
+        const result = await issuesService.getAllIssuesFromDB(sort);
         const allIssues = result.rows;
 
         const reporterInfo = await pool.query(

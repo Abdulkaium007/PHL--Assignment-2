@@ -1,6 +1,10 @@
 import { pool } from "../../db/index";
 import type { IIssue } from "./issuesInterface";
 
+const SORT_MAP: Record<string, "ASC" | "DESC"> = {
+    newest: "DESC",
+    oldest: "ASC",
+};
 
 const createIssueIntoDB = async(payload: IIssue) => {
     const { title, description, type, status, reporter_id } = payload;
@@ -14,9 +18,10 @@ const createIssueIntoDB = async(payload: IIssue) => {
     return result;
 };
 
-const getAllIssuesFromDB = async() => {
+const getAllIssuesFromDB = async(sort: string = "newest") => {
+    const order = SORT_MAP[sort] ?? "DESC";
     const result = await pool.query(
-        `SELECT * FROM issues`
+        `SELECT * FROM issues ORDER BY created_at ${order}`
     );
     return result;
 };

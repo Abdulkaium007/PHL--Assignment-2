@@ -214,3 +214,9 @@ Method : DELETE -> Time : 1779817638967 -> URL : /api/issues/10
 Method : DELETE -> Time : 1779817652353 -> URL : /api/issues/10
 
 Method : DELETE -> Time : 1779817660648 -> URL : /api/issues/10
+
+Method : GET -> Time : 1779824543125 -> URL : /api/issues
+
+Method : GET -> Time : 1779824586136 -> URL : /api/issues
+
+Method : GET -> Time : 1779825061954 -> URL : /api/issues
