@@ -116,3 +116,95 @@ Method : PUT -> Time : 1779797944085 -> URL : /api/users/11
 Method : PUT -> Time : 1779797975134 -> URL : /api/users/12
 
 Method : POST -> Time : 1779799505491 -> URL : /api/auth/register
+
+Method : GET -> Time : 1779806685855 -> URL : /api/issues/5
+
+Method : GET -> Time : 1779806704817 -> URL : /api/issues/3
+
+Method : GET -> Time : 1779806798421 -> URL : /api/issues/3
+
+Method : GET -> Time : 1779806874193 -> URL : /api/issues/3
+
+Method : GET -> Time : 1779807039980 -> URL : /api/issues/3
+
+Method : GET -> Time : 1779807759326 -> URL : /api/issues/3
+
+Method : GET -> Time : 1779807826306 -> URL : /api/issues/3
+
+Method : GET -> Time : 1779808910659 -> URL : /api/issues
+
+Method : DELETE -> Time : 1779808989525 -> URL : /api/issues/4
+
+Method : GET -> Time : 1779809002377 -> URL : /api/issues
+
+Method : GET -> Time : 1779809039044 -> URL : /api/issues
+
+Method : GET -> Time : 1779812959780 -> URL : /api/issues
+
+Method : GET -> Time : 1779812978867 -> URL : /api/issues
+
+Method : POST -> Time : 1779813007171 -> URL : /api/auth/login
+
+Method : POST -> Time : 1779813022114 -> URL : /api/auth/login
+
+Method : GET -> Time : 1779813042728 -> URL : /api/users
+
+Method : GET -> Time : 1779813060492 -> URL : /api/users
+
+Method : GET -> Time : 1779813115085 -> URL : /api/issues
+
+Method : GET -> Time : 1779813672238 -> URL : /api/users
+
+Method : POST -> Time : 1779813695982 -> URL : /api/auth/login
+
+Method : DELETE -> Time : 1779813750071 -> URL : /api/issues/3
+
+Method : GET -> Time : 1779813937408 -> URL : /
+
+Method : POST -> Time : 1779814407411 -> URL : /api/issues
+
+Method : POST -> Time : 1779814439098 -> URL : /api/issues
+
+Method : GET -> Time : 1779814449385 -> URL : /api/issues
+
+Method : POST -> Time : 1779814485334 -> URL : /api/issues
+
+Method : POST -> Time : 1779814502010 -> URL : /api/issues
+
+Method : POST -> Time : 1779814519729 -> URL : /api/issues
+
+Method : POST -> Time : 1779814529039 -> URL : /api/issues
+
+Method : GET -> Time : 1779814562643 -> URL : /api/issues
+
+Method : POST -> Time : 1779814710504 -> URL : /api/auth/login
+
+Method : PUT -> Time : 1779814822189 -> URL : /api/issues/7
+
+Method : PUT -> Time : 1779814838812 -> URL : /api/issues/3
+
+Method : PUT -> Time : 1779814865682 -> URL : /api/issues/3
+
+Method : PUT -> Time : 1779814973892 -> URL : /api/issues/3
+
+Method : PUT -> Time : 1779815194235 -> URL : /api/issues/3
+
+Method : PUT -> Time : 1779815360371 -> URL : /api/issues/3
+
+Method : PUT -> Time : 1779815383616 -> URL : /api/issues/3
+
+Method : PUT -> Time : 1779816173844 -> URL : /api/issues/3
+
+Method : PUT -> Time : 1779816206827 -> URL : /api/issues/3
+
+Method : PUT -> Time : 1779816249251 -> URL : /api/issues/10
+
+Method : PUT -> Time : 1779816260098 -> URL : /api/issues/9
+
+Method : GET -> Time : 1779816327112 -> URL : /api/users
+
+Method : DELETE -> Time : 1779816374949 -> URL : /api/issues/6
+
+Method : PUT -> Time : 1779816414119 -> URL : /api/issues/9
+
+Method : PUT -> Time : 1779816495246 -> URL : /api/issues/9
