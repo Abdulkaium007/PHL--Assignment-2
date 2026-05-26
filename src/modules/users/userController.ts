@@ -136,7 +136,7 @@ const deleteUser = async (req: Request, res: Response) => {
 
         }
         sendResponse(res, {
-            statusCode: 200,
+            statusCode: 204,
             success: true,
             message: "User deleted successfully!",
             data:{}

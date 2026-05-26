@@ -198,10 +198,10 @@ const deleteIssue = async(req: Request, res: Response)=>{
         }
         
         sendResponse(res, {
-            statusCode: 200,
+            statusCode: 204,
             success: true,
             message: "Issue deleted successfully!",
-            data: result.rows[0]
+            data: {}
         })
 
     }catch(error: unknown){
