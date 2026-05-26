@@ -114,3 +114,5 @@ Method : PUT -> Time : 1779797928719 -> URL : /api/users/10
 Method : PUT -> Time : 1779797944085 -> URL : /api/users/11
 
 Method : PUT -> Time : 1779797975134 -> URL : /api/users/12
+
+Method : POST -> Time : 1779799505491 -> URL : /api/auth/register
