@@ -2,7 +2,6 @@ import type { Request, Response } from "express";
 import { userService } from "./userService";
 import sendResponse from "../../utility/sendResponse";
 
-
 const createUser = async (req: Request, res: Response) => {
 
     try {
@@ -80,8 +79,21 @@ const getSingleUser = async (req: Request, res: Response) => {
 
 const updateUser = async (req: Request, res: Response) => {
     const { id } = req.params;
+    const loggedInUser = req.user;
+    // console.log(loggedInUser);
 
     try {
+        if(loggedInUser?.role === "contributor"){
+            if(loggedInUser.id !== Number(id)){
+                return sendResponse(res, {
+                    statusCode:403,
+                    success: false,
+                    message: "Forbidden!!! You can only update your id",
+                })
+            }
+
+        }
+
         const result = await userService.updateUserInDB(id as string, req.body);
         if(result.rows.length === 0) {
             sendResponse(res, {
