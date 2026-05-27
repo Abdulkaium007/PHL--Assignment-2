@@ -124,7 +124,7 @@ var userService = {
   deleteUserFromDB
 };
 
-// src/utility/sendResponse.ts
+// src/utils/sendResponse.ts
 var sendResponse = (res, data) => {
   res.status(data.statusCode).json({
     success: data.success,
