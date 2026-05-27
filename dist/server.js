@@ -328,9 +328,9 @@ var USER_ROLE = {
 
 // src/modules/users/userRoute.ts
 var router = Router();
-router.post("/", userController.createUser);
+router.post("/", auth_default(USER_ROLE.maintainer), userController.createUser);
 router.get("/", auth_default(USER_ROLE.maintainer), userController.getAllUsers);
-router.get("/:id", userController.getSingleUser);
+router.get("/:id", auth_default(USER_ROLE.maintainer), userController.getSingleUser);
 router.put("/:id", auth_default(), userController.updateUser);
 router.delete("/:id", auth_default(USER_ROLE.maintainer), userController.deleteUser);
 var userRoute = router;
@@ -759,7 +759,7 @@ var authController = {
 var router3 = Router3();
 router3.post("/login", authController.loginUser);
 router3.post("/refresh-token", authController.refreshAccessToken);
-router3.post("/register", authController.registerUser);
+router3.post("/signup", authController.registerUser);
 var authRoute = router3;
 
 // src/middlewares/logger.ts

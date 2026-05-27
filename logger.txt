@@ -220,3 +220,39 @@ Method : GET -> Time : 1779824543125 -> URL : /api/issues
 Method : GET -> Time : 1779824586136 -> URL : /api/issues
 
 Method : GET -> Time : 1779825061954 -> URL : /api/issues
+
+Method : GET -> Time : 1779904909977 -> URL : /api/users
+
+Method : GET -> Time : 1779904918380 -> URL : /api/users
+
+Method : POST -> Time : 1779904979293 -> URL : /api/auth/refresh-token
+
+Method : POST -> Time : 1779905012998 -> URL : /api/auth/refresh-token
+
+Method : POST -> Time : 1779905022132 -> URL : /api/auth/refresh-token
+
+Method : POST -> Time : 1779905064750 -> URL : /api/auth/login
+
+Method : GET -> Time : 1779905103400 -> URL : /api/users/2
+
+Method : GET -> Time : 1779905112545 -> URL : /api/users/6
+
+Method : POST -> Time : 1779905234114 -> URL : /api/auth/signup
+
+Method : GET -> Time : 1779905311240 -> URL : /api/issues
+
+Method : GET -> Time : 1779905504506 -> URL : /api/issues?sort=newest
+
+Method : GET -> Time : 1779905541562 -> URL : /api/issues?sort=oldest
+
+Method : GET -> Time : 1779905749726 -> URL : /api/issues?sort=oldest
+
+Method : GET -> Time : 1779905758337 -> URL : /api/issues?sort=newest
+
+Method : GET -> Time : 1779905778289 -> URL : /api/issues/4
+
+Method : GET -> Time : 1779905808349 -> URL : /api/issues/4
+
+Method : GET -> Time : 1779905817100 -> URL : /api/issues/6
+
+Method : GET -> Time : 1779905835018 -> URL : /api/issues/8
