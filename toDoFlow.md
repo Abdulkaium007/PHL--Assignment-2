@@ -70,33 +70,33 @@
 ---
 
 ## 🛡️ Authorization
-- [ ] Auth middleware (protect routes)
-- [ ] Role-based access (contributor / maintainer)
+- [x] Auth middleware (protect routes)
+- [x] Role-based access (contributor / maintainer)
 
 ---
 
 ## 🔎 Features
-- [ ] Filtering issues (type, status)
-- [ ] Sorting (newest / oldest)
+- [x] Filtering issues (type, status)
+- [x] Sorting (newest / oldest)
 
 ---
 
 ## ⚠️ Error Handling
-- [ ] Standard success response format
-- [ ] Standard error response format
-- [ ] Global error handler middleware
+- [x] Standard success response format
+- [x] Standard error response format
+- [x] Global error handler middleware
 
 ---
 
 ## 🚀 Deployment
-- [ ] Deploy backend (Render / Railway / Vercel)
-- [ ] Setup PostgreSQL cloud DB
-- [ ] Configure environment variables in production
+- [x] Deploy backend in Vercel
+- [x] Setup PostgreSQL cloud DB
+- [x] Configure environment variables in production
 
 ---
 
 ## 📄 Documentation
-- [ ] Write README.md
-- [ ] Add API endpoints list
-- [ ] Add setup instructions
-- [ ] Add live backend URL
+- [x] Write README.md
+- [x] Add API endpoints list
+- [x] Add setup instructions
+- [x] Add live backend URL

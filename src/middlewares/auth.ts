@@ -1,6 +1,6 @@
 import type { NextFunction, Request, Response } from "express"
 import type { ROLES } from "../types/userTypes"
-import sendResponse from "../utility/sendResponse";
+import sendResponse from "../utils/sendResponse";
 import jwt, { type JwtPayload } from "jsonwebtoken"
 import { config } from "../config";
 import { pool } from "../db/index";

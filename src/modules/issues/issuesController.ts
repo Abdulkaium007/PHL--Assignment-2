@@ -1,6 +1,6 @@
 import type { Request, Response } from "express";
 import { issuesService } from "./issuesService";
-import sendResponse from "../../utility/sendResponse";
+import sendResponse from "../../utils/sendResponse";
 import { Result } from "pg";
 import { pool } from "../../db/index";
 
