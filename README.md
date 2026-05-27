@@ -265,17 +265,6 @@ src/
 <hr style="margin-bottom: 30px;">
 
 
-# 🚀 Future Improvements
-
-- Pagination
-- Filtering
-- Advanced Search
-- Swagger Documentation
-- Unit Testing
-- Docker Support
-
-<hr style="border: 2px solid;">
-<hr style="margin-bottom: 30px;">
 
 
 # 👨‍💻 Author
